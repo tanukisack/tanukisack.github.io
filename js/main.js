@@ -10,7 +10,7 @@ let pwd = false;
 var commands = [];
 
 setTimeout(function() {
-  loopLines(banner, "", 80);
+  loopLines(header, "", 80);
   textarea.focus();
 }, 100);
 
@@ -82,11 +82,8 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
-    case "whois":
-      loopLines(whois, "color2 margin", 80);
-      break;
-    case "whoami":
-      loopLines(whoami, "color2 margin", 80);
+    case "fwm":
+      loopLines(fwm, "color2 margin", 80);
       break;
     case "video":
       addLine("Opening YouTube...", "color2", 80);
@@ -126,8 +123,8 @@ function commander(cmd) {
         before = document.getElementById("before");
       }, 1);
       break;
-    case "banner":
-      loopLines(banner, "", 80);
+    case "header":
+      loopLines(header, "", 80);
       break;
     // socials
     case "youtube":
