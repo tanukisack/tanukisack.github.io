@@ -95,8 +95,8 @@ function commander(cmd) {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
       break;
-    case "social":
-      loopLines(social, "color2 margin", 80);
+    case "links":
+      loopLines(links, "color2 margin", 80);
       break;
     case "secret":
       liner.classList.add("password");
@@ -126,7 +126,7 @@ function commander(cmd) {
     case "header":
       loopLines(header, "", 80);
       break;
-    // socials
+    // links
     case "youtube":
       addLine("Opening YouTube...", "color2", 80);
       newTab(youtube);
