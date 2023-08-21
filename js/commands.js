@@ -18,7 +18,7 @@ links = [
   'youtube        <a href="' + youtube + '" target="_blank">https://www.youtube.com/@TanukiSack' + "</a>",
   'twitter        <a href="' + twitter + '" target="_blank">https://twitter.com/Tanukisack_' + '</a>',
   'linkedin       <a href="' + linkedin + '" target="_blank">https://www.linkedin.com/in/jamesvdelisa/' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">https://www.linkedin.com/in/jamesvdelisa/' + '</a>',
+  'instagram      <a href="' + instagram + '" target="_blank">https://www.instagram.com/tanukisack/' + '</a>',
   'github         <a href="' + github + '" target="_blank">https://github.com/tanukisack' + "</a>",
   "<br>"
 ];
