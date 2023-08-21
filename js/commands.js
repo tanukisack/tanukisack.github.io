@@ -15,11 +15,11 @@ fwm = [
 
 links = [
   "<br>",
-  'youtube        <a href="' + youtube + '" target="_blank">youtube/' + "</a>",
-  'twitter        <a href="' + twitter + '" target="_blank">twitter/' + '</a>',
-  'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/' + "</a>",
-  'instagram      <a href="' + instagram + '" target="_blank">instagram/' + '</a>',
-  'github         <a href="' + github + '" target="_blank">github/' + "</a>",
+  'youtube        <a href="' + youtube + '" target="_blank">https://www.youtube.com/@TanukiSack' + "</a>",
+  'twitter        <a href="' + twitter + '" target="_blank">https://twitter.com/Tanukisack_' + '</a>',
+  'linkedin       <a href="' + linkedin + '" target="_blank">https://www.linkedin.com/in/jamesvdelisa/' + "</a>",
+  'instagram      <a href="' + instagram + '" target="_blank">https://www.linkedin.com/in/jamesvdelisa/' + '</a>',
+  'github         <a href="' + github + '" target="_blank">https://github.com/tanukisack' + "</a>",
   "<br>"
 ];
 
