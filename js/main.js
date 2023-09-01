@@ -82,8 +82,8 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
-    case "fwm":
-      loopLines(fwm, "color2 margin", 80);
+    case "who":
+      loopLines(who, "color2 margin", 80);
       break;
     case "video":
       addLine("Opening YouTube...", "color2", 80);
