@@ -139,14 +139,16 @@ function commander(cmd) {
       addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
       break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
-      break;
     case "github":
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
       break;
+    case "":
+        addLine("", "color2", 0);
+        break;
+    case " ":
+        addLine("", "color2", 0);
+        break;
     default:
       addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
       break;
