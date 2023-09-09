@@ -3,7 +3,7 @@ var linkedin = "https://www.linkedin.com/in//";
 var github = "https://github.com//";
 var email = 'mailto:delisavjames85@gmail.com';
 
-Who = [
+who = [
   "<br>",
   "James",
   "<br>"
@@ -20,7 +20,7 @@ links = [
 
 help = [
   "<br>",
-  '<span class="command">fwm</span>            Who am i?',
+  '<span class="command">who</span>            Who am i?',
   '<span class="command">links</span>          Github & Linkedin.',
   '<span class="command">help</span>           The command you just used.',
   '<span class="command">header</span>         ASCII Art.  ',
