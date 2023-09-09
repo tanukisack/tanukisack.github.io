@@ -4,9 +4,7 @@ var github = "https://github.com//";
 var email = 'mailto:delisavjames85@gmail.com';
 
 who = [
-  "<br>",
-  "James",
-  "<br>"
+  "<br>","James","<br>"
 ];
 
 
