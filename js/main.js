@@ -85,12 +85,8 @@ function commander(cmd) {
     case "who":
       loopLines(who, "color2 margin", 80);
       break;
-    case "video":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
-      break;
     case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
+      addLine("That's a Linux command...", "color2", 80);
       setTimeout(function() {
         window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
       }, 1000); 
@@ -106,7 +102,7 @@ function commander(cmd) {
       loopLines(projects, "color2 margin", 80);
       break;
     case "password":
-      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
+      addLine("<span class=\"inherit\"> ? </span>", "error", 100);
       break;
     case "history":
       addLine("<br>", "", 0);
@@ -114,7 +110,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:forrest@fkcodes.com">forrest@fkcodes.com</a>...', "color2", 80);
+      addLine('Opening mailto:<a href="mailto:delisavjames85@gmail.com"></a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
@@ -150,7 +146,7 @@ function commander(cmd) {
         addLine("", "color2", 0);
         break;
     default:
-      addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
+      addLine("<span class=\"inherit\">Check your spelling. Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
       break;
   }
 }

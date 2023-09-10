@@ -50,7 +50,7 @@ b {
 #command {
   cursor: text;
   height: 50px;
-  color: #ff2e2e;
+  color: #c3c881;
 }
 #liner {
   line-height: 1.3em;
@@ -100,30 +100,30 @@ p {
   }
 }
 .index {
-  color: #DCDCCC;
+  color: #ccd1dc;
 }
 .color2 {
-  color: #B89076;
+  color: #b4b876;
 }
 .command {
-  color: #73ABAD;
-  text-shadow: 0 0 5px #73ABAD; 
+  color: #7db9c1;
+  text-shadow: 0 0 5px #7aa9ab; 
 }
 .error {
-  color: #B89076;
+  color: #ed0a0a;
 }
 .white {
   color: #fff;
 }
 .inherit,
 a {
-  color: #9C8394;
+  color: #d23535;
 }
 a {
   text-decoration: inherit;
 }
 a:hover {
-  background: #73ABAD;
+  background: #ff00e1;
   color: #211830;
 }
 a:focus {

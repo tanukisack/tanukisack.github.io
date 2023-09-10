@@ -39,5 +39,13 @@ header = [
 "   ░   ░        ░  ░             ░  ░      ░        ░       ▒  ░    ░  ░ ░                ░  ░",
 "                                                                                              ",                       
   '<span class="color2">James DeLisa CLI.</span>',
-  "<span class=\"color2\">type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
+   
 ];
+
+projects = [
+
+
+
+
+]
+
