@@ -117,13 +117,13 @@ p {
 }
 .inherit,
 a {
-  color: #d23535;
+  color: #e21111;
 }
 a {
   text-decoration: inherit;
 }
 a:hover {
-  background: #ff00e1;
+  background: #00f7ff;
   color: #211830;
 }
 a:focus {
