@@ -10,8 +10,8 @@ who = [
 
 links = [
   "<br>",
-  'linkedin       <a href="' + linkedin + '" target="_blank">https://www.linkedin.com/in/jamesvdelisa/' + "</a>",
-  'github         <a href="' + github + '" target="_blank">https://github.com/tanukisack' + "</a>",
+  '<span class=\"command\">"LinkedIn"</span>       <a href="' + linkedin + '" target="_blank">https://www.linkedin.com/in/jamesvdelisa/' + "</a>",
+  '<span class=\"command\">"GitHub"</span>         <a href="' + github + '" target="_blank">https://github.com/tanukisack' + "</a>",
   "<br>"
 ];
 
@@ -39,6 +39,7 @@ header = [
 "   ░   ░        ░  ░             ░  ░      ░        ░       ▒  ░    ░  ░ ░                ░  ░",
 "                                                                                              ",                       
   '<span class="color2">James DeLisa CLI.</span>',
+  '<span class="color2">Type <span class=\"command\">"help"</span> for a list of commands.</span>'
    
 ];
 

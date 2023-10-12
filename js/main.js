@@ -146,7 +146,7 @@ function commander(cmd) {
         addLine("", "color2", 0);
         break;
     default:
-      addLine("<span class=\"inherit\">Check your spelling. Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
+      addLine("<span class=\".error\">Check your spelling. Command not found. For a list of commands type <span class=\"command\">'help'</span>.</span>", "error", 100);
       break;
   }
 }

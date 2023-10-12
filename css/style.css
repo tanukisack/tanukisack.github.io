@@ -110,14 +110,14 @@ p {
   text-shadow: 0 0 5px #7aa9ab; 
 }
 .error {
-  color: #ed0a0a;
+  color: #d62222;
 }
 .white {
   color: #fff;
 }
 .inherit,
 a {
-  color: #e21111;
+  color: #e0da66;
 }
 a {
   text-decoration: inherit;
