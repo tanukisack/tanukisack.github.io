@@ -86,9 +86,9 @@ function commander(cmd) {
       loopLines(who, "color2 margin", 80);
       break;
     case "sudo":
-      addLine("That's a Linux command...", "color2", 80);
+      addLine("Permission Denied...", "color2", 80);
       setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+        window.open('https://www.youtube.com/shorts/HnjO5SsaH_U');
       }, 1000); 
       break;
     case "links":
