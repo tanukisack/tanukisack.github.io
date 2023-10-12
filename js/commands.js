@@ -4,12 +4,13 @@ var github = "https://github.com//";
 var email = 'mailto:delisavjames85@gmail.com';
 
 who = [
-  "<br>",'Aspiring Security Professional with 3+ years as a client systems technician in the Air Force,' , "<br>",
-  "<br>", 'seeking to leverage my experience in troubleshooting and problem-solving to help your company stay secure and' , "<br>",
-  "<br>", 'compliant. I am a passionate teammate and a quick learner, with a strong curiosity for how systems work and a' , "<br>",
-  "<br>", 'love for using creativity and automation to solve problems. I am eager to use my passion for IT and' ,"<br>",
-  "<br>", 'security concepts to develop and implement effective security solutions that meet your organization\'s,' ,"<br>",
-  "<br>", 'unique needs.',"<br>",
+  "<br>",
+  'Aspiring Security Professional with 3+ years as a client systems technician in the Air Force,' ,
+  'I am a passionate teammate and a quick learner, with a strong curiosity for how systems work' ,
+  'and a love for using creativity and automation to solve problems. I am eager to use my passion' , 
+  'for IT and security concepts to develop and implement effective security solutions that meet' ,
+  'the world\'s unique needs.',
+  "<br>",
 ];
 
 
