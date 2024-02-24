@@ -6,7 +6,8 @@ var email = 'mailto:delisavjames85@gmail.com';
 who = [
   "<br>",
   'DIY enthusiast, Tinkerer, Fixer.' ,
-  'I am a passionate teammate and a quick learner, with a strong curiosity for how systems/devices work.' ,
+  'I am a passionate teammate and a quick learner,', 
+  'with a strong curiosity for how systems/devices work.',
   'Enjoy using my creativity to figure out new ways to better processes.',
   "<br>",
 ];
