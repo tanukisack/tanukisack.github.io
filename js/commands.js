@@ -5,11 +5,9 @@ var email = 'mailto:delisavjames85@gmail.com';
 
 who = [
   "<br>",
-  'Aspiring Security Professional with 3+ years as a client systems technician in the Air Force,' ,
-  'I am a passionate teammate and a quick learner, with a strong curiosity for how systems work' ,
-  'and a love for using creativity and automation to solve problems. I am eager to use my passion' , 
-  'for IT and security concepts to develop and implement effective security solutions that meet' ,
-  'the world\'s unique needs.',
+  'DIY enthusiast, Tinkerer, Fixer.' ,
+  'I am a passionate teammate and a quick learner, with a strong curiosity for how systems/devices work.' ,
+  'Enjoy using my creativity to figure out new ways to better processes.',
   "<br>",
 ];
 
