@@ -4,12 +4,12 @@ var github = "https://github.com//";
 var email = 'mailto:delisavjames85@gmail.com';
 
 who = [
-  "<br>",
-  'DIY enthusiast, Tinkerer, Fixer.' ,
-  'I am a passionate teammate and a quick learner.', 
-  'I have a strong curiosity for how systems/devices work.',
-  'Enjoy using my creativity to figure out new ways to better processes.',
-  "<br>",
+"<br>",
+'A DIY start',
+'Tinkerer with a curious heart',
+'Quick to learn, build anew',
+'From the base, creativity blooms through',
+"<br>",
 ];
 
 
