@@ -5,10 +5,10 @@ var email = 'mailto:delisavjames85@gmail.com';
 
 who = [
 "<br>",
-'A DIY start',
-'Tinkerer with a curious heart',
-'Quick to learn, build anew',
-'From the base, creativity blooms through',
+'A DIY enthusiast, curious at heart',
+'Quick to learn, always eager to start',
+'Building from scratch, ideas take flight',
+'Creativity grows in the spark of light',
 "<br>",
 ];
 
