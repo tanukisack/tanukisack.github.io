@@ -3,7 +3,7 @@ body {
   padding: 15px 20px;
   min-height: 99%;
   width: 100%;
-  min-width: 550px;
+  min-width: 320px; /* mobile-friendly */
   color: #519975;
   background: #242953;
   font-family: cursor, monospace;
@@ -15,11 +15,24 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
 }
+#command {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
 @media (max-width: 768px) {
   body {
     padding: 10px 12px;
     font-size: 15px;
+    min-width: 320px;
+  }
+  #terminal,
+  #command {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }
   #command {
     min-height: 60px;
@@ -80,6 +93,7 @@ b {
   cursor: text;
   height: 50px;
   color: #c3c881;
+  text-align: left;
 }
 #liner {
   line-height: 1.3em;
@@ -87,6 +101,7 @@ b {
   animation: show 0.5s ease forwards;
   animation-delay: 1.2s;
   opacity: 0;
+  text-align: left;
 }
 #liner::before {
   color: #00ff80;
