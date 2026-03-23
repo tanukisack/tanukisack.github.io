@@ -10,7 +10,7 @@ let pwd = false;
 var commands = [];
 
 setTimeout(function() {
-  loopLines(banner, "", 80);
+  loopLines(header, "", 80);
   textarea.focus();
 }, 100);
 
@@ -55,7 +55,7 @@ function enterKey(e) {
     if (e.keyCode == 13) {
       commands.push(command.innerHTML);
       git = commands.length;
-      addLine("visitor@fkcodes.com:~$ " + command.innerHTML, "no-animation", 0);
+      addLine("guest@jamesdelisa.com:~$ " + command.innerHTML, "no-animation", 0);
       commander(command.innerHTML.toLowerCase());
       command.innerHTML = "";
       textarea.value = "";
@@ -82,24 +82,17 @@ function commander(cmd) {
     case "help":
       loopLines(help, "color2 margin", 80);
       break;
-    case "whois":
-      loopLines(whois, "color2 margin", 80);
-      break;
-    case "whoami":
-      loopLines(whoami, "color2 margin", 80);
-      break;
-    case "video":
-      addLine("Opening YouTube...", "color2", 80);
-      newTab(youtube);
+    case "who":
+      loopLines(who, "color2 margin", 80);
       break;
     case "sudo":
-      addLine("Oh no, you're not admin...", "color2", 80);
+      addLine("Permission Denied...", "color2", 80);
       setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+        window.open('https://www.youtube.com/shorts/HnjO5SsaH_U');
       }, 1000); 
       break;
-    case "social":
-      loopLines(social, "color2 margin", 80);
+    case "links":
+      loopLines(links, "color2 margin", 80);
       break;
     case "secret":
       liner.classList.add("password");
@@ -109,7 +102,7 @@ function commander(cmd) {
       loopLines(projects, "color2 margin", 80);
       break;
     case "password":
-      addLine("<span class=\"inherit\"> Lol! You're joking, right? You\'re gonna have to try harder than that!😂</span>", "error", 100);
+      addLine("<span class=\"inherit\"> ? </span>", "error", 100);
       break;
     case "history":
       addLine("<br>", "", 0);
@@ -117,7 +110,7 @@ function commander(cmd) {
       addLine("<br>", "command", 80 * commands.length + 50);
       break;
     case "email":
-      addLine('Opening mailto:<a href="mailto:forrest@fkcodes.com">forrest@fkcodes.com</a>...', "color2", 80);
+      addLine('Opening mailto:<a href="mailto:delisavjames85@gmail.com"></a>...', "color2", 80);
       newTab(email);
       break;
     case "clear":
@@ -126,10 +119,10 @@ function commander(cmd) {
         before = document.getElementById("before");
       }, 1);
       break;
-    case "banner":
-      loopLines(banner, "", 80);
+    case "header":
+      loopLines(header, "", 80);
       break;
-    // socials
+    // links
     case "youtube":
       addLine("Opening YouTube...", "color2", 80);
       newTab(youtube);
@@ -142,16 +135,18 @@ function commander(cmd) {
       addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
       break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
-      break;
     case "github":
       addLine("Opening GitHub...", "color2", 0);
       newTab(github);
       break;
+    case "":
+        addLine("", "color2", 0);
+        break;
+    case " ":
+        addLine("", "color2", 0);
+        break;
     default:
-      addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
+      addLine("<span class=\".error\">Check your spelling. Command not found. For a list of commands type <span class=\"command\">'help'</span>.</span>", "error", 100);
       break;
   }
 }
