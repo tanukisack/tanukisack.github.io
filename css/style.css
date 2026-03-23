@@ -9,6 +9,35 @@ body {
   font-family: cursor, monospace;
   overflow-x: hidden;
 }
+#terminal {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px 12px;
+    font-size: 15px;
+  }
+  #command {
+    min-height: 60px;
+  }
+  p {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+  .margin {
+    margin-left: 10px;
+  }
+  #liner::before {
+    content: "guest@jamesdelisa.com:~$";
+    font-size: 0.95em;
+  }
+}
+
 ::selection {
   color: #e0da66;
   background-color: #e0da66;
