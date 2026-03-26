@@ -12,7 +12,7 @@ body {
 #terminal {
   width: 100%;
   max-width: 900px;
-  margin: 0 auto;;
+  margin: 0;
   box-sizing: border-box;
 }
 #command {
